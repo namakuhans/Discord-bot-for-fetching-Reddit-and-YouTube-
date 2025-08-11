@@ -1,0 +1,35 @@
+{
+  "name": "discord-reddit-youtube-bot",
+  "version": "1.0.0",
+  "description": "Discord bot untuk pairing akun Reddit & YouTube, notifikasi otomatis saat ada postingan/video terbaru.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "discord",
+    "reddit",
+    "youtube",
+    "bot",
+    "notifier",
+    "rpc"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "discord.js": "^14.15.3",
+    "lowdb": "^6.0.1",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "token": "DISCORD_BOT_TOKEN_KAMU",
+  "clientId": "DISCORD_CLIENT_ID",
+  "reddit": {
+    "username": "USERNAME_REDDIT",
+    "password": "PASSWORD_REDDIT",
+    "clientId": "REDDIT_CLIENT_ID",
+    "clientSecret": "REDDIT_CLIENT_SECRET",
+    "userAgent": "DiscordRedditBot/1.0"
+  },
+  "youtube": {
+    "apiKey": "YOUTUBE_API_KEY"
+  }
+}
